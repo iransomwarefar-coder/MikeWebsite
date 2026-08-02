@@ -28,11 +28,13 @@ h1 {
 	float: left;
 	}
 	
-	
+	img:hover{
+	Transform:scale(1.02);
+	}
 	
 	
 	p{
-	background:white;
+	background:khaki;
 	width:90%;
 	max-width:900px;
 	margin:20px auto;
