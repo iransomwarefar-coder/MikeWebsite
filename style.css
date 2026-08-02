@@ -27,3 +27,17 @@ h1 {
 	.navbar li{
 	float: left;
 	}
+	
+	
+	
+	
+	p{
+	background:white;
+	width:90%;
+	max-width:900px;
+	margin:20px auto;
+	padding:18px;
+	border-radius:18px;
+	box-shadow:0 5px 12px rgba(0,0,0,.15);
+	font-size:22px;
+	}
