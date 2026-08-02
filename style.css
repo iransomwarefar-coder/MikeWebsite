@@ -1,32 +1,42 @@
 h1 {
-	text-align: center;
-	}
-	
-	.navbar ul {
-	list-style-type: none;
-	background-color: #B7410E;
-	padding: 0;
-	margin: 0;
-	display: flex;
-	justify-content: center;
-	overflow: hidden;
-	}
-	
-	.navbar a {
-	color: white;
-	text-decoration: none;
-	padding: 15px;            
-	display: block;
-	text-align: center;
-	}
-	
-	.navbar a:hover {
-	background-color: orange;
-	}
-	
-	.navbar li{
-	float: left;
-	}
+    text-align: center;
+    color: #8B4513;
+    font-family: Georgia, serif;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: #B7410E;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.navbar li {
+    margin: 0 5px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.navbar a:hover {
+    background-color: #D2691E;
+    border-radius: 8px;
+    transform: scale(1.05);
+}
 	
 	img:hover{
 	Transform:scale(1.02);
