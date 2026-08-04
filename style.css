@@ -66,3 +66,13 @@ h1 {
 	box-shadow:0 5px 12px rgba(0,0,0,.15);
 	}
 	
+	
+	video {
+	border: 6px solid white;
+	border-radius: 20px;
+	box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+	}
+	
+	
+	
+	
